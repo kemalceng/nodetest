@@ -12,7 +12,7 @@ app.get('/', function (req, res) {
 })
 
 app.get('/merhaba/:adiniz', function (request, response, next) {
-  // ES6 feature apostrope??
+  // ES6 Template String feature : apostrophe
   return response.end(`hosgeldin -- ${request.params.adiniz}`)
 })
 
