@@ -9,7 +9,6 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "echo NPM START",
     "test": "echo \"Error: no test specified\" && exit 1",
     "deploy": "echo DEPLOYING"
   },
