@@ -17,5 +17,5 @@ app.get('/merhaba/:adiniz', function (request, response, next) {
 })
 
 app.listen(process.env.PORT || 3000, function () {
-  console.log(`Example app listening on port ${process.env.PORT} or 3000!)
+  console.log(`Example app listening on port ${process.env.PORT} or 3000!`)
 })
